@@ -10,7 +10,7 @@ module datapath(input             clk, reset,
                 output            zero,
                 output reg [63:0] pc,
                 input [31:0]      instruction,
-                output [63:0]     alu_result, read_data2
+                output [63:0]     alu_result, read_data2,
                 input [63:0]      read_data);
 
   wire [4:0]  writereg;
